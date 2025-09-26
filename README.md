@@ -20,8 +20,10 @@ Program mengoreksi pilihan ganda (ABCDE) 30 nomor dengan kode soal berbeda-beda 
 ...
 ```
 330 itu kode soalnya, 3, 1, 0, 0, ... itu kuncinya yang berarti D, B, A, A, ...
-2. Shortcut (pada saat jendela cv2 nya terbuka, kameranya terdeteksi):
+
+2. Masukkan nama kelas tanpa spasi. Nantinya file gambar yang tersimpan akan di folder ini
+3. Shortcut (pada saat jendela cv2 nya terbuka, kameranya terdeteksi):
    - `k` untuk memasukkan kunci kode, sekaligus mengetahui skor.
-   - `s` untuk menyimpan
+   - `s` untuk menyimpan gambar
    - `q` atau `Esc` untuk keluar
-3. Jika webcam tidak terdeteksi, ganti pada baris `port = 0` menjadi bilangan lain seperti 2, 3, 4, dsb.
+4. Jika webcam tidak terdeteksi, ganti pada baris `port = 0` menjadi bilangan lain seperti 2, 3, 4, dsb.
